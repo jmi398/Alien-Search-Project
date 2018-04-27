@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alien Search</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 style="text-align:center; color:gold;">Are Aliens Real?</h1>
+    <h4 style="text-align:center; color:navy;">Search through the table of eye-witness reports for specific pieces of information on aliens.</h4>
+    <h6 style="text-align:center; color:navy;">Please enter the datetime, city, state, country, and shape you are looking for in the fields below.</h6>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="form-group">
+          <input type="text" class="form-control" id="datetime" placeholder="Datetime">
+          <input type="text" class="form-control" id="city" placeholder="City">
+          <input type="text" class="form-control" id="state" placeholder="State">
+          <input type="text" class="form-control" id="country" placeholder="Country">
+          <input type="text" class="form-control" id="shape" placeholder="Shape">
+          <a id="search" class="btn btn-default">Search</a>
+        </div>
+      </div>
+      <div class="col-xs-6">
+          <img style="margin: 0 auto;" src="https://files.list.co.uk/images/2012/09/04/yoda_big.jpg" alt="Alien image" width="200" height="242">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table-bordered table-striped">
+          <thead>
+            <tr>
+              <th style="color:gold;">Datetime</th>
+              <th style="color:gold;">City</th>
+              <th style="color:gold;">State</th>
+              <th style="color:gold;">Country</th>
+              <th style="color:gold;">Shape</th>
+              <th style="color:gold;">Duration</th>
+              <th style="color:gold;">Comment</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="data.js" type="text/javascript"></script>
+  <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
